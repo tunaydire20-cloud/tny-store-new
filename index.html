@@ -21,7 +21,18 @@ select,input{width:100%;padding:10px;margin:5px 0;}
 .cart{position:fixed;top:10px;right:10px;background:#000;color:#fff;padding:10px;}
 .call{position:fixed;bottom:15px;left:15px;background:#007bff;color:#fff;padding:15px;border-radius:50%;}
 .gallery{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
-.gallery img{width:100%;border-radius:10px;}
+.gallery{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:10px;
+}
+
+.gallery img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:12px;
+}
 .footer{background:#111;color:#fff;text-align:center;padding:20px;}
 </style>
 
@@ -60,10 +71,22 @@ select,input{width:100%;padding:10px;margin:5px 0;}
 </div>
 
 <div class="card">
-<h3>Пясъчник със сенник – 113€</h3>
-<button onclick="addCanopy()">Добави в количка</button>
+
+<div class="gallery">
+
+<img src="/0E58564D-7D16-40C1-BE40-D4A9DE1460F3" alt="Пясъчник със сенник">
+<img src="/09079C54-3599-4ACE-B5F3-ACF597648319.p" alt="Пясъчник със сенник">
+<img src="/24E63589-3C26-4FB5-BD1A-3079F8DBE772.p" alt="Пясъчник със сенник">
+<img src="/IMG_4415.png" alt="Пясъчник със сенник">
+<img src="/IMG_2286.jpeg" alt="Пясъчник със сенник">
+<img src="/IMG_8351.jpeg" alt="Пясъчник със сенник">
 </div>
 
+<h3>Пясъчник със сенник – 113€</h3>
+
+<button onclick="addCanopy()">Добави в количка</button>
+
+</div>
 </div>
 
 <div class="section">
